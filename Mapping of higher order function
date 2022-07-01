@@ -1,0 +1,7 @@
+
+#using map() function:
+def convert_int(x):
+    return int(x)
+div_list=['7','3','9']
+result=list(map(convert_int,div_list))
+print(result)
