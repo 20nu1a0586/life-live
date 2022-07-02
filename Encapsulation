@@ -1,0 +1,41 @@
+#Encapsulation 
+
+class marks:
+    def __init__(self, score,name):
+        self.score=score
+        self.name=name
+    def set_name(self,value):
+        self.name=value
+    def get_name(self):
+        return self.name
+Maths=marks(100,'honey')  
+Python=marks(99,'divya')
+Chemistry=marks(98,'sana')
+Python.set_name('divya')
+Python.name=('kodi') #can update name also
+print(Python.get_name())
+print(Python.score)
+
+output:
+kodi
+99
+
+class marks:
+    def __init__(self, score,name):
+        self.score=score
+        self.name=name
+    def set_score(self,value):
+        self.score=value
+    def get_score(self):
+        return self.score
+Maths=marks(100,'honey')  
+Python=marks(99,'divya')
+Chemistry=marks(98,'sana')
+Chemistry.set_score('100')
+Chemistry.score=(99) #can update name also
+print(Chemistry.get_score())
+print(Chemistry.name)
+
+output:
+99 
+sana
