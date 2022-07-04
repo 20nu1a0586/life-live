@@ -1,0 +1,54 @@
+# Magic 8 Ball
+
+import random
+
+answer1="Life is short,art is long"
+answer2="Live,Love,Laugh"
+answer3="honey is gem"
+answer4="Looking gorgeous"
+answer5="Yes,will agree with u"
+answer6="No,Not Interested "
+answer7="Sense of Humour"
+answer8="Creativity coding"
+answer9="Hey! Can u hear me?"
+answer10="Its RK beach"
+answer11="All the best"
+answer12="Dude! Lets have burger"
+answer13="Dancing Queen"
+question=input("WHO ARE YOU ?\n")
+input(question + ", What's your question to Magic 8 Ball :\n ")
+SELECT=random.randint(1,13)
+if SELECT==1:
+    answer=answer1
+elif SELECT==2:
+    answer=answer2    
+elif SELECT==3:
+    answer=answer3
+elif SELECT==4:
+    answer=answer4   
+elif SELECT==5:
+    answer=answer5
+elif SELECT==6:
+    answer=answer6
+elif SELECT==7:
+    answer=answer7   
+elif SELECT==8:
+    answer=answer8
+elif SELECT==9:
+    answer=answer9  
+elif SELECT==10:
+    answer=answer10
+elif SELECT==11:
+    answer=answer11    
+elif SELECT==12:
+    answer=answer12
+elif SELECT==13:
+    answer=answer13
+print("Magic 8 Ball :", answer)
+
+Sample output:
+WHO ARE YOU ?
+divya
+divya,  What's your question to Magic 8 Ball :
+7
+Magic 8 Ball : Looking gorgeous
