@@ -1,0 +1,43 @@
+// Even odd numbers in an array 
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) 
+	{
+		int d=0,h=0,s=0;
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter the size of array:");
+		d=scan.nextInt();
+		int arr[]=new int[d];
+		System.out.println("Enter the elements in an array:");
+		for(int i=0;i<d;i++) 
+		{
+			arr[i]=scan.nextInt();
+		}
+		for(int i=0;i<d;i++) 
+		{
+			if(arr[i]%2==0)
+			{
+				h++;
+			}
+			else 
+			{
+				s++;
+			}
+		}
+		System.out.println("Number of even numbers are:"+h);
+		System.out.println("Number of odd numbers are:"+s);
+		}
+	}
+
+OUTPUT:
+Enter the size of array:
+4
+Enter the elements in an array:
+9
+1
+8
+0
+Number of even numbers are:2
+Number of odd numbers are:2
+
